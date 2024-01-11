@@ -1,0 +1,19 @@
+Simple (and kinda bad) subnet calculator in rust 
+
+Usage:
+  subcalc ::1/128
+  subcalc.exe 127.0.0.1/8
+
+Response:
+{
+  "result": {
+    "ip_version": 4,
+    "subnet": "127.0.0.1/8",
+    "prefix_length": 8,
+    "num_ips": 16777216,
+    "range_start": "127.0.0.0",
+    "range_end": "127.255.255.255"
+  },
+  "success": true,
+  "error": ""
+}
